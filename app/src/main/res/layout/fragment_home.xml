@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:expanded="true"
+        android:background="@drawable/shepe">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleMargin="10dp"
+        app:titleTextColor="#F3F6FC">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cu01"
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="4dp"
+            android:textSize="23dp"
+            android:text="Learn English"
+            android:textColor="@color/white"
+            tools:ignore="RtlCompat" />
+
+
+
+            <TextView
+                android:id="@+id/scu01"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textAlignment="center"
+                android:paddingTop="5dp"
+                android:textSize="22dp"
+                android:drawableRight="@drawable/search"
+                android:textColor="@color/white"
+                tools:ignore="RtlCompat" />
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="25dp"/>
+
+            <TextView
+                android:id="@+id/orocart01"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="23dp"
+                android:drawableRight="@drawable/ordershca"
+                android:textColor="@color/white"
+                tools:ignore="RtlCompat" />
+
+
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="right"
+            android:background="@drawable/rec1"
+            android:textAlignment="center"
+            android:backgroundTint="@color/vi1"
+            android:padding="18dp"
+            android:textSize="20dp"
+            android:text="ENGLISH VOCABULARY"
+            android:textColor="@color/white"
+            tools:ignore="RtlCompat" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="right"
+            android:background="@drawable/rec2"
+            android:textAlignment="center"
+            android:backgroundTint="@color/vi2"
+            android:padding="18dp"
+            android:textSize="20dp"
+            android:text="ALL VOCABULARY TENCE"
+            android:textColor="@color/white"
+
+            tools:ignore="RtlCompat" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="left"
+            android:background="@drawable/rec3"
+            android:textAlignment="center"
+            android:backgroundTint="@color/vi3"
+            android:padding="18dp"
+            android:textSize="20dp"
+            android:text="ADVANCE GRAMMAR"
+            android:textColor="@color/white"
+            tools:ignore="RtlCompat" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="left"
+            android:background="@drawable/rec4"
+            android:textAlignment="center"
+            android:backgroundTint="@color/vi4"
+            android:padding="18dp"
+            android:textSize="20dp"
+            android:text="Clock Details"
+            android:textColor="@color/white"
+            tools:ignore="RtlCompat" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="right"
+            android:background="@drawable/rec1"
+            android:textAlignment="center"
+            android:backgroundTint="@color/vi5"
+            android:padding="18dp"
+            android:textSize="20dp"
+            android:text="SMART ENGLISH"
+            android:textColor="@color/white"
+            tools:ignore="RtlCompat" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="right"
+            android:background="@drawable/rec2"
+            android:textAlignment="center"
+            android:backgroundTint="@color/vi6"
+            android:padding="18dp"
+            android:textSize="20dp"
+            android:text="SPEAKING SKILL"
+            android:textColor="@color/white"
+            tools:ignore="RtlCompat" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+
+            <ImageView
+                android:id="@+id/imnati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bookbac" />
+
+
+
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/intim"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@drawable/conect"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/intext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:padding="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:text="Looks like you are not connected to
+the internet."
+                android:textColor="@color/bluemaster"
+                tools:ignore="RtlCompat"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/intbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#ec5fa9"
+                android:textSize="20dp"
+                android:backgroundTint="@color/lightwhite"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Turn on Internet"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+</FrameLayout>

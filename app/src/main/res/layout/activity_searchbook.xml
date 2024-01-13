@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".userseen.searchbook">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:elevation="10dp"
+        app:expanded="true"
+        android:background="@drawable/shepe"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shepe"
+            android:contentDescription="@string/app_name"
+            android:longClickable="true"
+            app:titleMargin="10dp"
+            app:titleTextColor="#F3F6FC">
+
+            <SearchView
+                android:id="@+id/searchpanal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/borderdesign"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                android:focusable="true"
+                android:focusedByDefault="true"
+                android:queryHint="Search here ! ..."
+                android:iconifiedByDefault="false"/>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchrv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnEnglish"
+        tools:targetApi="31">
+        <activity
+            android:name=".userseen.Clock"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".userseen.Fpct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Fpt"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Fct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Fst"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Papct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Papt"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Pact"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Past"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Ppct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Ppt"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Simplepct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userProcess.Myporshow"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userProcess.Payment"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userProcess.Order"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Feedback"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Contact_us"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Help_center"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.About_us"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.searchbook"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.SpeakingSkill"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userProcess.selectcart"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userProcess.edit_profile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.all_vocabulary_tence"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Smartenglish"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Simpleprt"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Grammar"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userseen.Vocabulary"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userProcess.resetpassword"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userProcess.otp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userProcess.Forgotpassword"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".homepage"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".signup"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".splash"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <service android:name=".Apicategory.GetaddressIntentService" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+    </application>
+
+</manifest>

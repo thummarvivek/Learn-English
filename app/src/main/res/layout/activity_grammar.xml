@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swip2"
+    android:background="#272727"
+    tools:context=".userseen.Grammar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shepe"
+            android:elevation="10dp"
+            app:elevation="10dp"
+            app:expanded="true">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shepe"
+                app:title="ADVANCE GRAMMAR"
+                android:contentDescription="@string/app_name"
+                android:longClickable="true"
+                app:titleMargin="10dp"
+                app:titleTextColor="#F3F6FC" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/ttxx01"
+                android:layout_width="530dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/atd" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="10dp"/>
+
+            <ImageView
+                android:id="@+id/ttxx02"
+                android:layout_weight="1"
+                android:layout_width="530dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/prest" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/ttxx03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pst" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="10dp"/>
+
+            <ImageView
+                android:id="@+id/ttxx04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fust" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical" >
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/present01"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/seprs"
+                            android:text="Present Simple Tence" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/present02"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/seprs"
+                            android:text="Present Continuous Tense" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+
+                        <TextView
+                            android:id="@+id/present03"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/seprs"
+                            android:text="Present Perfect Tense" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/present04"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/seprs"
+                            android:text="Present Perfect Continuous Tense" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/past01"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/seps"
+                            android:text=" Past Simple Tense" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+                        <TextView
+                            android:id="@+id/past02"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/seps"
+                            android:text="Past Continuous Tense" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/past03"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/seps"
+                            android:text="Past Perfect Tense" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/past04"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/seps"
+                            android:text="Past Perfect Continuous Tense" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/future01"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/secf"
+                            android:text="Future Simple Tense" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/future02"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/secf"
+                            android:text="Future Continuous Tence" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/future03"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/secf"
+                            android:text="Future Perfect Tense" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/future04"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:drawableLeft="@drawable/secf"
+                            android:text="Future Perfect Continuous Tence" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"/>
+
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"/>
+
+
+
+
+                    </LinearLayout>
+                </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
